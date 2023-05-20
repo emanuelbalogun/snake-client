@@ -1,5 +1,4 @@
 const connect = require("./client");
-connect();
 
 const setupInput = function () {
   const stdin = process.stdin;
@@ -9,3 +8,13 @@ const setupInput = function () {
   stdin.on("data", handleUserInput);
   return stdin;
 };
+
+const handleUserInput = (key) => {
+  // your code here
+  if (key === '\u0003') {
+    process.exit();
+  }
+};
+
+connect();
+setupInput();

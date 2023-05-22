@@ -1,4 +1,3 @@
-const IP ="172.19.168.205";
+const IP = "172.19.168.205";
 const PORT = 50541;
-
-module.exports ={IP,PORT};
+module.exports = { IP, PORT };

@@ -26,6 +26,12 @@ const handleUserInput = (key) => {
   case "d":
     connection.write("Move: right");
     break;
+  case "t":
+    connection.write("Say: good");
+    break;
+  case "u":
+    connection.write("Say: I won");
+    break;
   }
 
   // console.log(key);

@@ -17,4 +17,4 @@ Before you can run this client, you will need to be running the server side whic
   * d - Move down
 - To send messages to the other player(s) use the following keys
   * t - good
-  * U - I won
+  * u - I won

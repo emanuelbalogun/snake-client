@@ -12,8 +12,7 @@ const setupInput = function(conn) {
 };
 
 const handleUserInput = (key) => {
-  // your code here\
-
+  
   switch (key) {
   case MOVEKEY.MOVE_UP_KEY:
     connection.write("Move: up");
@@ -35,15 +34,12 @@ const handleUserInput = (key) => {
     break;
   }
 
-  // console.log(key);
-  //if(key === '\u00057' || key === '\u00077')
+  
   if (key === "\u0003") {
     process.exit();
   }
 };
 
-//\u0057 W U+0077
-setupInput();
 module.exports = { setupInput };
 
 

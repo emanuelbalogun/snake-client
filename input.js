@@ -33,7 +33,6 @@ const handleUserInput = (key) => {
     connection.write("Say: I won");
     break;
   }
-
   
   if (key === "\u0003") {
     process.exit();
